@@ -1,0 +1,112 @@
+.comic-neue-light {
+    font-family: "Roboto Mono", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .comic-neue-regular {
+    font-family: "Roboto Mono", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .comic-neue-bold {
+    font-family: "Roboto Mono", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .comic-neue-light-italic {
+    font-family: "Roboto Mono", cursive;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .comic-neue-regular-italic {
+    font-family: "Roboto Mono", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .comic-neue-bold-italic {
+    font-family: "Roboto Mono", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+header{
+    color:rgb(75, 221, 220);
+    text-align: center;
+    text-shadow: rgb(195, 185, 190) 0px 1px 5px ;
+    font-size:30px;
+    margin-bottom:20px;
+}
+body{
+    font-family: Roboto Mono;
+    font-style:unset;
+    color: aqua;
+    font-weight: 400;
+    font-style:normal;
+    border-radius: 25px;
+    text-align: center;
+}
+input, select{
+  border-radius: 25px;
+    border: 2px solid aquamarine;
+    border-color: aquamarine;
+    padding: 5px;
+}
+.container {
+  background-color: rgb(225, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.item {
+  background-color: rgba(28, 225, 226, 0.3); 
+  width: 100px;
+  border-radius: 15px; 
+  align-items: center;
+  color: rgb(29, 202, 224);
+  font-family: Roboto Mono;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  transition: ease-in-out;
+  transition-duration: 2s;
+}
+.item2 {
+  background-color: rgba(24, 190, 190, 0.2); 
+  width: 100px;
+  border-radius: 15px; 
+  align-items: center;
+  color: rgb(32, 188, 209);
+  font-family: Roboto Mono;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  transition: ease-in-out;
+  transition-duration: 2s;
+}
+.item3 {
+  background-color: rgba(20, 211, 211, 0.2); 
+  width: 100px;
+  border-radius: 15px; 
+  align-items: center;
+  color: rgb(42, 193, 212);
+  font-family: Roboto Mono;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  transition: ease-in-out;
+  transition-duration: 2s;
+}
+
